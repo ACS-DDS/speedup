@@ -10,7 +10,6 @@
 		<input type="submit" class="valider" value="Se connecter">
 	</form>
 	<a href="http://nabilb.dijon.codeur.online/Tchat/Login">Créer un compte</a>
-	<output class="show"></output>
 	</div>
 </div>
 

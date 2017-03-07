@@ -13,7 +13,6 @@ class Login_model extends CI_Model {
 		if (!$this->db->insert('utilisateur', $data)) {
 			$error = $this->db->error();
 		}
-		echo "Success!";
 	}
 	
 }

@@ -19,7 +19,7 @@ class Login extends CI_Controller {
 		$email = $this->input->post("email");
 		$pwd = $this->input->post("pwd");
 
-		$this->load->model('Login_Model','',TRUE);
+		$this->load->model('Login_Model');
 		$this->Login_Model->addUser($nom,$prenom,$user,$email,$pwd);
 		}
 	}
