@@ -16,5 +16,15 @@ class Tchat_model extends CI_Model {
 		}
 	}
 
+	public function onlineUser($id_user) {
+		$select = "UPDATE utilisateur SET pong = now() WHERE id = ?";		
+		$this->db->query($select, array($id_user));
+	}
+
+	public function listUser() {
+		$select = "SELECT pseudo FROM utilisateur WHERE pong > now() - '15 second'::interval ORDER BY pseudo ASC";
+		$query = $this->db->query($select);
+		return $query->result_array();
+	}
 }
 ?>
