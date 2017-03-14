@@ -1,6 +1,6 @@
 # speedup
 
-Tchat réalisé avec CodeIgniter en PHP
+Tchat réalisé avec CodeIgniter en PHP&Ajax
 
 +++
 Fonctionnel
@@ -10,4 +10,4 @@ Fonctionnel
 Ajout de fonctionnalités à venir
 ---
 
-Réalisé avec komodor8
+Réalisé avec Farid
